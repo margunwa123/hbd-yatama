@@ -1,15 +1,14 @@
 <template>
   <div>
     <b-card
-      class="mt-3" 
-      :bg-variant="getVariant()" 
-      :title="wish.from" 
+      class="mt-3 border border-dark" 
+      bg-variant="light"
       v-for="(wish, index) in wishes" 
       :key="index" 
     >
-      <b-card-text v-html="wish.wish">
-      </b-card-text>
-      <b-card-text v-html="wish.note" class="font-italic text-right"></b-card-text>
+      <h5> {{ wish.from }} </h5>
+      <b-card-text >{{wish.wish}}</b-card-text>
+      <b-card-text class="font-italic text-right">{{wish.note}}</b-card-text>
     </b-card>
   </div>
 </template>
@@ -21,7 +20,6 @@ export default {
   data() {
     return {
       wishes: wishes,
-      variants: ['info','danger','warning','light'],
       index: 0
     }
   },

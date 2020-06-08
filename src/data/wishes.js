@@ -34,4 +34,9 @@ export default [
     wish: "ajarkan kami keselamatan untuk keluar dari jomblo yang mengikat. 'I want to be a fakboi'",
     note: " - Ocan Siagian. "
   },
+  {
+    from: "Toby",
+    wish: "Gbu",
+    note: ""
+  },
 ]
