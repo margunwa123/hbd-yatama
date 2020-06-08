@@ -1,0 +1,25 @@
+.home{
+  position: relative;
+}
+
+.home-image{
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.home-image-text {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 5vw;
+  width: 100%;
+}
+
+.home-image-text > h1 {
+  font-size: 9vw;
+}
