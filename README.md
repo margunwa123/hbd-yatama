@@ -1,4 +1,5 @@
-# hbd-yatama
+# Hbd-yatama
+Proyek ini dibuat untuk merayakan ultah yatama
 
 ## Project setup
 ```
