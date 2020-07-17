@@ -39,4 +39,9 @@ export default [
     wish: "Gbu",
     note: ""
   },
+  {
+    from: "Ipun",
+    wish: "Semoga sukses bro, semoga gw ntar diundang ke kawinannya ",
+    note: ""
+  },
 ]
